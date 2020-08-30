@@ -1,0 +1,49 @@
+body {
+	background-color:#DCDCDC;
+}
+h1 {
+	
+	font-family: 'Acme', serif;
+	font-weight: bold;
+	margin: 15px;
+	color: white;
+	font-size: 35px;
+}
+
+ .col-md{
+	background-color:#7B68EE;
+	font-weight: bold;
+	
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: grey;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+#menu {
+	font-family: 'Acme', cursive, serif;
+	font-weight: bold;
+	font-size: 40px;
+	color:#7B68EE;
+}
+.container {
+	margin-top: 40px;
+}
+
+@media (min-width: 768px){
+    .navbar-toggle{
+        opacity: 0;
+    }
+}
